@@ -76,7 +76,7 @@ module.exports ={
             ignored:/node_modules/
         },
         open:true,
-        host:'192.168.3.12',
+        host:'localhost',
         port:3000,
     
     },
