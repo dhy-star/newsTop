@@ -1,0 +1,21 @@
+.bar{
+    width: 100%;
+    font-size: .15rem;
+    height: .25rem;
+    overflow-x: auto;
+}
+.scorll{
+    display: flex;
+    height: inherit;
+    width: 6rem;
+}
+.active{
+    color: #ff3333;
+}
+.item{
+    display: inline-block;
+    width: .6rem;
+    height: inherit;
+    line-height: .25rem;
+    text-align: center;
+}

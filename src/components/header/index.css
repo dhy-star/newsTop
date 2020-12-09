@@ -1,0 +1,19 @@
+.header{
+    background-color: #ff3333;
+    position: relative;
+    font-size: .2rem;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    color: white;
+}
+.header .back,.header a{
+    position: absolute;
+    left:10px;
+    color: white;
+    text-decoration: none;
+}
+.header .collections{
+    position: absolute;
+    right: 10px;
+}
