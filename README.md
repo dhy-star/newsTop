@@ -14,7 +14,7 @@ import mytpl from './mian.tpl'
 import mytpl from './mian.tpl'
 export defulte {
 tpl(options){
-   return res
+   return  tplReplace（mytpl,options）
 }
 }
   
