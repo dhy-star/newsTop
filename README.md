@@ -8,13 +8,12 @@
 import mytpl from './mian.tpl'<br>
 我可以这样拿到这个函数。<br>
 执行这个函数可以返回这个模板字符串 “`"<h1>{{title}}</h1>"`” 然后可以用正则匹配到改字符串中所有的“{{}}”，把它替换成我们的配置项<br>
-`
 import mytpl from './mian.tpl'<br>
 export default {<br>
 tpl(options){<br>
    return  tplReplace（mytpl,options）<br>
 }<br>
-}`
+}
   
 
 
